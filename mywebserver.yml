@@ -1,7 +1,7 @@
 --- 
 - hosts: all 
   become: yes 
-  task: 
+  tasks: 
   - name: install webserver on ubuntu  
     apt: 
      name: apache2 
